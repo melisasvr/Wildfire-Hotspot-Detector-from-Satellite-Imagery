@@ -27,8 +27,7 @@ FIRMS thermal bands are **never** model inputs, which would leak the label signa
 ```mermaid
 flowchart LR
   A[FIRMS VIIRS archive] --> B[Filter: confidence, FRP, persistent sources]
-  B --> C[STAC match: same scene, |time gap| <= 6 h, low cloud]
-  C --> D[Windowed COG reads: 6 bands + SCL]
+  B --> C["STAC match: same scene, |time gap| <= 6 h, low cloud"]
   D --> E[Positives centred on detections;<br/>negatives from the same scene]
   E --> F[Spatial-block split + leakage purge]
   F --> G[Train-only normalisation + indices]
@@ -37,7 +36,6 @@ flowchart LR
   G --> H3[ResNet-18 / small CNN]
   H1 & H2 & H3 --> I[Test evaluation, slices, error analysis]
   H3 --> J[Streamlit demo]
-```
 
 Key design decisions (and the reasons):
 
