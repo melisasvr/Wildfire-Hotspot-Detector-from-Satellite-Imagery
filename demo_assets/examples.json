@@ -1,0 +1,110 @@
+[
+  {
+    "patch_id": "P4bf379eeb7da",
+    "label": 1,
+    "lat": 41.48448,
+    "lon": -123.49767,
+    "scene_datetime": "2024-09-28T19:13:12.114000+00:00",
+    "firms_confidence": "n",
+    "frp": 4.95
+  },
+  {
+    "patch_id": "Pb834b242a7d2",
+    "label": 1,
+    "lat": 39.65206,
+    "lon": -122.05424,
+    "scene_datetime": "2024-06-10T19:13:39.588000+00:00",
+    "firms_confidence": "n",
+    "frp": 13.8
+  },
+  {
+    "patch_id": "P600b54ad495b",
+    "label": 1,
+    "lat": 39.70861,
+    "lon": -122.17133,
+    "scene_datetime": "2024-10-05T19:03:41.086000+00:00",
+    "firms_confidence": "h",
+    "frp": 13.02
+  },
+  {
+    "patch_id": "P964508af4778",
+    "label": 1,
+    "lat": 39.70387,
+    "lon": -122.19076,
+    "scene_datetime": "2024-10-05T19:03:41.086000+00:00",
+    "firms_confidence": "n",
+    "frp": 1.76
+  },
+  {
+    "patch_id": "P0ff44391891e",
+    "label": 1,
+    "lat": 39.55656,
+    "lon": -121.51573,
+    "scene_datetime": "2024-07-02T19:03:40.757000+00:00",
+    "firms_confidence": "h",
+    "frp": 168.54
+  },
+  {
+    "patch_id": "P255a8f0422c2",
+    "label": 1,
+    "lat": 39.03838,
+    "lon": -122.11094,
+    "scene_datetime": "2024-06-07T19:03:43.377000+00:00",
+    "firms_confidence": "n",
+    "frp": 4.41
+  },
+  {
+    "patch_id": "Pefb911760277",
+    "label": 0,
+    "lat": 39.087855232483726,
+    "lon": -122.12183986342711,
+    "scene_datetime": "2024-10-15T19:03:40.339000+00:00",
+    "firms_confidence": NaN,
+    "frp": null
+  },
+  {
+    "patch_id": "P7533cf9d2b7a",
+    "label": 0,
+    "lat": 39.603557679748526,
+    "lon": -122.11551323611535,
+    "scene_datetime": "2024-10-13T19:13:35.187000+00:00",
+    "firms_confidence": NaN,
+    "frp": null
+  },
+  {
+    "patch_id": "P3730b4497f06",
+    "label": 0,
+    "lat": 39.024690238153624,
+    "lon": -122.17228166032875,
+    "scene_datetime": "2024-08-01T19:03:42.956000+00:00",
+    "firms_confidence": NaN,
+    "frp": null
+  },
+  {
+    "patch_id": "Pb1e275d04bb9",
+    "label": 0,
+    "lat": 38.897771207251616,
+    "lon": -122.12820196797838,
+    "scene_datetime": "2024-07-17T19:03:43.804000+00:00",
+    "firms_confidence": NaN,
+    "frp": null
+  },
+  {
+    "patch_id": "P7217275bddc7",
+    "label": 0,
+    "lat": 38.90759114965372,
+    "lon": -122.15975138327754,
+    "scene_datetime": "2024-06-07T19:03:43.377000+00:00",
+    "firms_confidence": NaN,
+    "frp": null
+  },
+  {
+    "patch_id": "Pe75a741e1ae6",
+    "label": 0,
+    "lat": 39.065123838387024,
+    "lon": -122.09218182059642,
+    "scene_datetime": "2024-06-07T19:03:43.377000+00:00",
+    "firms_confidence": NaN,
+    "frp": null
+  }
+]

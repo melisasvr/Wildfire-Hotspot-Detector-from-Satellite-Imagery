@@ -1,0 +1,26 @@
+# data (never commit imagery or large intermediates)
+data/raw/*
+data/interim/*
+data/processed/*
+data/processed_matched/
+runs_matched/
+reports_matched/
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# runs and reports (commit selected report figures by hand if you want)
+runs/
+reports/
+demo_assets/*.pt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# secrets
+.env

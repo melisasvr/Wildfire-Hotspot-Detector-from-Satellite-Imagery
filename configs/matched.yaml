@@ -1,0 +1,13 @@
+# Same pipeline, but negatives are matched to positives on land-cover context.
+# Outputs go to separate folders so you can compare with the default run.
+extends: default.yaml
+
+paths:
+  processed: data/processed_matched
+  runs: runs_matched
+  reports: reports_matched
+
+matching:
+  enabled: true
+  negatives_per_positive: 2
+  caliper_sd: 0.75
